@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item android:title="More">
+        <menu>
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/profile"
+            android:title="My Profile" />
+
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/message"
+            android:title="Messages" />
+
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/file"
+            android:title="Payment history" />
+
+        <item
+            android:id="@+id/nav_receipt"
+            android:icon="@drawable/receipt"
+            android:title="Receipts" />
+
+        <item
+            android:id="@+id/nav_Refunds"
+            android:icon="@drawable/money"
+            android:title="Refunds" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+        </menu>
+    </item>
+
+
+    <item android:title="Feedback">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/contact"
+                android:title="Contact us" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+</menu>
